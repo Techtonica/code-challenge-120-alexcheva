@@ -19,6 +19,6 @@ describe("Challenge 120:", () => {
     expect(groupBy(pomeranians, (p) => Math.floor(p.weight_kg)).toEqual(answer1));
   });
   it("groupBy(['one', 'two', 'three'], (s) => s.length) should return { '3': ['one', 'two'], '5': ['three'] }", () => {
-    expect(groupBy(['one', 'two', 'three'], (s) => s.length)).toEqual({ '3': ['one', 'two'], '5': ['three'] });
+    expect(groupBy(['one', 'two', 'three'], (s) => s.length).toEqual({ '3': ['one', 'two'], '5': ['three'] }));
   });
 });
